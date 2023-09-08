@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import hero from "../assets/hero.jpg";
-import brush from "../assets/brush-stroke-banner-6.svg";
+// import brush from "../assets/brush-stroke-banner-6.svg";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
         </Link>
       </article>
       <article className="small-hero">
-        <img src={brush} alt="paint brush" className="svg" />
+        {/* <img src={brush} alt="paint brush" className="svg" /> */}
       </article>
       <article className="img-container">
         <img src={hero} alt="hero background" className="main-img" />
