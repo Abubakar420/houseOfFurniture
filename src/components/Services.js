@@ -16,8 +16,10 @@ const Services = () => {
             </span>
             <h4>Mission</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              fuga quis perferendis.
+              "At [House Of Furniture], our mission is to transform houses into homes by providing high-quality
+              , stylish, and functional furniture that enhances the comfort and aesthetics of living spaces.
+              We are committed to offering a diverse range of furniture pieces that cater to various tastes and lifestyles,
+              all while maintaining affordability and sustainability.
             </p>
           </article>
           <article className="service">
@@ -26,11 +28,13 @@ const Services = () => {
             </span>
             <h4>Vision</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              hic.
+              Our vision at [House Of Furniture] is to become the premier destination for furniture excellence,
+              where innovation meets craftsmanship to elevate the art of interior design.
+              We envision a future where every home is a sanctuary of comfort, style,
+              and sustainability, and where our brand is synonymous with quality and innovation
             </p>
           </article>
-          <article className="service">
+          {/* <article className="service">
             <span className="icon">
               <HiBookOpen />
             </span>
@@ -39,14 +43,14 @@ const Services = () => {
               Similique modi, quidem quae quas explicabo necessitatibus sint
               eius beatae officiis ut!
             </p>
-          </article>
-          <article className="service">
+          </article> */}
+          {/* <article className="service">
             <span className="icon">
               <HiColorSwatch />
             </span>
             <h4>Designers</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          </article>
+          </article> */}
         </div>
       </div>
     </ServicesContainer>

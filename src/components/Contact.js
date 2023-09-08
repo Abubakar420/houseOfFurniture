@@ -36,9 +36,7 @@ const Contact = () => {
         <h3>Sign up for our newsletter</h3>
         <div className="content">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            nam laboriosam quod tempore nulla, veniam 20% off! Doloribus soluta
-            debitis at atque delectus autem?
+            "We respect your privacy. Your information will not be shared with third parties, and you can unsubscribe at any time."
           </p>
           <form className="contact-form" onSubmit={handleSubmit}>
             <input
