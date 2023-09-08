@@ -22,7 +22,7 @@ const SingleProduct = () => {
 
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`);
-  }, [id]);
+  }, [fetchSingleProduct, id]);
 
   if (singleProductLoading) {
     return <Loading />;
