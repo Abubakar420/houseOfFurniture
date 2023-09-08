@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { HiColorSwatch, HiBookOpen, HiBadgeCheck, HiEye } from "react-icons/hi";
+import { HiBadgeCheck, HiEye } from "react-icons/hi";
 
 const Services = () => {
   return (
